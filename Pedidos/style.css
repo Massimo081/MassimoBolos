@@ -1,0 +1,168 @@
+*{  box-sizing: border-box;
+    margin: 0;
+}
+
+#cabecalho{width: 100%;
+    height: 10vh;
+    background-color: #83492A;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+#cabecalho ul{
+    list-style: none;
+    margin-left: 400px;
+    margin-right: 100px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    padding-top: 30px;
+}
+
+#cabecalho a{
+    color: white;
+    text-decoration: none;
+}
+
+#cabecalho img{
+    margin-top: 20px;
+}
+
+#botaoCadastro{
+    text-decoration: none;
+    background-color: #FFAB2E;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 10%;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
+.negrito{
+    font-weight: 900;
+}
+
+main img{
+    object-fit: cover;
+}
+
+main svg{margin-top: 15px;
+    height: 45px;
+}
+
+main{
+    font-family: "Cairo", sans-serif;
+    padding-left: 300px;
+}
+
+h1 {font-size: 35px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 800;
+    font-family: "Cairo", sans-serif;
+    margin-top: 20px;
+    
+}
+
+.barralaranja{  width: 10%;
+    background-color: #FFAB2E;
+    height: 0.5vh;
+    margin-bottom: 10px;
+}
+
+.pedidos{height: 20vh;
+    display: flex;
+}
+
+.barraLateral{font-weight: 800;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #8f8f8f;
+    width: 5%;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.descricao{background-color: #ebebeb;
+    display: flex;
+}
+
+.descricao img{
+    height: 100%;
+    margin-right: 20px;
+    
+}
+
+.descricao p{width: 60%;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+.h2{
+    font-weight: 700;
+}
+
+.descricao div{
+    margin-top: 69px;
+}
+
+main form{
+    margin-top: 10px;
+}
+
+main form label{
+    margin-top: 20px;
+}
+
+main form input{background-color: rgb(231, 231, 231) ;
+    margin-top: 5px;  
+    border-radius: 5px; 
+    width: 50%;
+    height: 33px; 
+}
+
+.botaoConfirmar{font-family:"Cairo", sans-serif  ;
+    font-size: 16px;
+    font-weight: 800;
+    height: 40px;
+    width: 20%;
+    background-color: #FFAB2E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+select{
+    background-color: rgb(231, 231, 231) ;
+    margin-top: 15px;  
+    border-radius: 5px; 
+    width: 10%;
+    height: 35px; 
+    font-weight: 500;
+    font-size: 16px;
+}
+
+main h2:last-of-type{
+    margin-top: 30px;
+}
+
+#rodape{text-align: center;
+    background-color: #83492A;
+    margin-top: 20vh;
+    height: 8vh;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Cairo", sans-serif ;
+    font-weight: 300;
+}

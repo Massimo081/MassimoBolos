@@ -1,0 +1,109 @@
+*{  box-sizing: border-box;
+    margin: 0;
+}
+
+#cabecalho{width: 100%;
+    height: 10vh;
+    background-color: #83492A;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+#cabecalho ul{
+    list-style: none;
+    margin-left: 400px;
+    margin-right: 100px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    padding-top: 30px;
+}
+
+#cabecalho a{
+    color: white;
+    text-decoration: none;
+}
+
+#cabecalho img{
+    margin-top: 20px;
+}
+
+#botaoCadastro{
+    text-decoration: none;
+    background-color: #FFAB2E;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 10%;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
+.negrito{
+    font-weight: 900;
+}
+
+h1 {font-size: 35px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 800;
+    font-family: "Cairo", sans-serif;
+    margin-top: 100px;
+}
+
+.barralaranja{  width: 7%;
+    margin-left: 885px;
+    background-color: #FFAB2E;
+    height: 0.5vh;
+}
+
+main{
+    text-align: center;
+}
+
+main form{
+    font-family: "Cairo", sans-serif;
+    margin-top: 20px
+}
+
+main>form>label{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+main>form>input{margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(206, 206, 206) ;
+    width: 20%;
+    height: 35px;
+}
+
+
+#rodape{text-align: center;
+    background-color: #83492A;
+    margin-top: 23vh;
+    height: 8vh;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Cairo", sans-serif ;
+    font-weight: 300;
+}
+
+.botaoConfirmar{font-family:"Cairo", sans-serif  ;
+    font-size: 16px;
+    font-weight: 800;
+    height: 30px;
+    width: 10%;
+    background-color: #FFAB2E;
+    color: white;
+}
